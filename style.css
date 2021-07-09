@@ -26,9 +26,39 @@ h2,  h3 {
 
 .navbar-brand {
   display: inline-block;
-  padding: 5px;
+  padding: 0px;
   background: rgb(36, 193, 204);
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
  
+}
+
+
+
+#Home_Button {
+
+  height: 150px ;
+}
+
+/* .navbar-toggler{
+
+  height: 100px;
+} */
+/* .img-thumbnail:hover {
+
+  opacity: 0.5;
+
+
+} */
+.img-thumbnail.inactive {
+
+  opacity: 0.5;
+
+
+}
+.img-thumbnail.active {
+
+  opacity: 0;
+
+  border: 3px solid green;
 }
