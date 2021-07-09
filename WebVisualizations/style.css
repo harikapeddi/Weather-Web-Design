@@ -1,0 +1,34 @@
+body {
+    background: rgb(210, 216, 216);
+  }
+
+
+button {
+
+  color: white;
+
+}
+
+h2,  h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.my_background {
+  background-color: white;
+}
+
+.my_font {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  color: white;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding: 5px;
+  background: rgb(36, 193, 204);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+ 
+}
