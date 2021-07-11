@@ -1,14 +1,18 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Web Design & Visualization Dashboard (Latitude)
 
-# https://harikapeddi.github.io/Weather-Web-Design/
 
-## Background
+
+### Link to Website - https://harikapeddi.github.io/Weather-Web-Design/
+
+
+
+### Background
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
 ![Images/landingResize.png](C:/Users/sreek/Desktop/Homework/Weather-Web-Design/Instructions/Images/landingResize.png)
 
-### Before You Begin
+#### Before You Begin
 
 1. Create a new repository for this project called `Web-Design-Challenge`. **Do not add this homework to an existing repository**.
 
@@ -22,13 +26,13 @@ Data is more powerful when we share it with others! Let's take what we've learne
 
 6. Deploy to GitHub pages. 
 
-## Latitude - Latitude Analysis Dashboard with Attitude
+#### Latitude - Latitude Analysis Dashboard with Attitude
 
 For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
 
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
-### Website Requirements
+#### Website Requirements
 
 For reference, see the ["Screenshots" section](#screenshots) below.
 
@@ -63,7 +67,7 @@ When finished, submit to BootcampSpot the links to 1) the deployed app and 2) th
 
 Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
-### Considerations
+#### Considerations
 
 * You may use the [weather data](Resources/cities.csv) or choose another dataset. Alternatively, you may use the included [cities dataset](Resources/cities.csv) and pull the images from the [assets folder](Resources/assets).
 * You must use Bootstrap. This includes using the Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
@@ -72,7 +76,7 @@ Ensure your repository has regular commits (i.e. 20+ commits) and a thorough REA
 * Be sure your website works at all window widths/sizes.
 * Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
 
-### Bonuses
+#### Bonuses
 
 * Use a different dataset! The requirements above still hold, but make it your own.
 * Use a Bootstrap theme to customize your website. You may use a tool like [Bootswatch](https://bootswatch.com/). Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
@@ -80,11 +84,11 @@ Ensure your repository has regular commits (i.e. 20+ commits) and a thorough REA
 * Use meaningful glyphicons next to links in the header.
 * Have visualization navigation on every visualizations page with an active state. See the screenshots below.
 
-### Screenshots
+#### Screenshots
 
 This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
 
-#### <a id="landing-page"></a>Landing page
+##### <a id="landing-page"></a>Landing page
 
 Large screen:
 
@@ -95,7 +99,7 @@ Small screen:
 ![Landing page small screen](C:/Users/sreek/Desktop/Homework/Weather-Web-Design/Instructions/Images/landing-sm.png)
 ￼
 
-#### <a id="comparisons-page"></a>Comparisons page
+##### <a id="comparisons-page"></a>Comparisons page
 
 Large screen:
 
@@ -105,7 +109,7 @@ Small screen:
 
 ![comparison page small screen](C:/Users/sreek/Desktop/Homework/Weather-Web-Design/Instructions/Images/comparison-sm.png)
 
-#### <a id="data-page"></a>Data page
+##### <a id="data-page"></a>Data page
 
 Large screen:
 
@@ -116,7 +120,7 @@ Small screen:
 
 ![data page small screen](C:/Users/sreek/Desktop/Homework/Weather-Web-Design/Instructions/Images/data-sm.png)
 
-#### <a id="visualization-pages"></a>Visualization pages
+##### <a id="visualization-pages"></a>Visualization pages
 
 You'll build four of these, one for each visualization. Here's an example of one:
 
@@ -128,7 +132,7 @@ Small screen:
 
 ![visualize page small screen](C:/Users/sreek/Desktop/Homework/Weather-Web-Design/Instructions/Images/visualize-sm.png)
 
-#### <a id="navigation-menu"></a>Navigation menu
+##### <a id="navigation-menu"></a>Navigation menu
 
 Large screen:
 ![nav menu large screen](C:/Users/sreek/Desktop/Homework/Weather-Web-Design/Instructions/Images/nav-lg.png)
@@ -136,13 +140,13 @@ Large screen:
 Small screen:
 ![nav menu small screen](C:/Users/sreek/Desktop/Homework/Weather-Web-Design/Instructions/Images/nav-sm.png)
 
-## Rubric
+#### Rubric
 
 [Unit 11 Rubric - Web Design Homework - Web Visualization Dashboard](https://docs.google.com/document/d/16RJehl9qVOxdj7o7hUwvdlsoyrA_-kaoB8CGwr9LX_Y/edit?usp=sharing)
 
 - - -
 
-## References
+#### References
 
 OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from [https://openweathermap.org/](https://openweathermap.org/)
 
