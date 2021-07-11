@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
     <a class="navbar-brand" href="index.html"><span class="text-white">Latitude</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -65,10 +65,17 @@
         <div class="row">
 
           <div class="col-md-12">
-            <img src="Resources/assets/images/Fig1.png" alt="Lat vs. Max Temp" class="img-thumbnail">
+            <div class="text-center">
+            
+              <img src="Resources/assets/images/Fig1.png" alt="Lat vs. Max Temp" class="img-thumbnail mb-3" style="border: hidden;">
+           
+            </div>
+            <p style="font-size: 13px; font-family:Arial, Helvetica, sans-serif; color:rgb(73, 99, 99); font: weight 545;">
+              The Temperatures increase as the latitude moves from -90 to 0 and from 90 to 0, 0 being the equator, -90 being southpole and 90 being northpole. 
+            </p>
 
           </div>
-          
+        
           
 
         </div>
@@ -87,13 +94,15 @@
 
         <div class="row mb-3">     
 
-            <div class="col-sm-6">
-              <a  href="Temp.html"><img src="Resources/assets/images/Fig1.png" alt="..." class="img-thumbnail"></a>
+            <div class="col-sm-6 col-xs-3">
+              <a  href="Temp.html"><img src="Resources/assets/images/Fig1.png" alt="..." class="img-thumbnail" id="sel-graph"></a>
+
+              
               
             </div>
           
 
-            <div class="col-sm-6">
+            <div class="col-sm-6 col-xs-3">
               <a  href="Humidity.html"><img src="Resources/assets/images/Fig2.png" alt="..." class="img-thumbnail"></a>
             </div>
           

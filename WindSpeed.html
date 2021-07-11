@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
     <a class="navbar-brand" href="index.html"><span class="text-white">Latitude</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -65,7 +65,13 @@
         <div class="row">
 
           <div class="col-md-12">
-            <img src="Resources/assets/images/Fig4.png" alt="Lat vs. Wind Speed" class="img-thumbnail">
+            <div class="text-center">            
+              <img src="Resources/assets/images/Fig4.png" alt="Lat vs. Wind Speed" class="img-thumbnail mb-3" style="border: hidden;">
+              
+            </div>
+            <p style="font-size: 13px; font-family:Arial, Helvetica, sans-serif; color:rgb(73, 99, 99); font: weight 545;">
+              There seems to be no correlarion between Latitude and Wind Speed. Northern hemisphere relatively experiences more wind speed compared to southern hemisphere. 
+            </p>
 
           </div>
           
@@ -105,7 +111,7 @@
             <a  href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="..." class="img-thumbnail"></a>
           </div>
           <div class="col-sm-6">
-          <a href="WindSpeed.html"><img src="Resources/assets/images/Fig4.png" alt="..." class="img-thumbnail"></a>
+          <a href="WindSpeed.html"><img src="Resources/assets/images/Fig4.png" alt="..." class="img-thumbnail" id="sel-graph"></a>
           </div>
         </div>
   
